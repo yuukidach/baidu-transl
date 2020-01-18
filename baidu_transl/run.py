@@ -59,7 +59,7 @@ def trans(src: str,
 
         response = httpClient.getresponse()
         result_all = response.read().decode("utf-8")
-        result = json.loads(result_all)
+        result = json.loads(result_all)['trans_result'][0]['dst']
 
         print (result)
 
