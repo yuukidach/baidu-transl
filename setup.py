@@ -16,7 +16,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Dash',
     author_email='chendamailbox@foxmail.com',
-    packages=find_packages(),
+    packages=find_packages(exclude=['test']),
     install_requires= INSTALL_REQUIRES,
     entry_points={
         'console_scripts': [

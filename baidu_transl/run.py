@@ -72,9 +72,3 @@ def trans(src: str,
 
 if __name__ == '__main__':
     trans('test')
-
-
-
-
-
-
